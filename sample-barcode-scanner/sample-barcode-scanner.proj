@@ -81,7 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <CordovaPlugin Include="com.phonegap.plugins.barcodescanner">
-      <Version>0.2.0</Version>
+      <Version>0.2.2</Version>
       <Name>Barcode Scanner</Name>
     </CordovaPlugin>
   </ItemGroup>
