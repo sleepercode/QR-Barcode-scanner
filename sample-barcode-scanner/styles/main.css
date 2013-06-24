@@ -59,9 +59,10 @@ body
     background: -o-linear-gradient(top, #ffffff 0%,#e6e6e6 100%);
     background: -ms-linear-gradient(top, #ffffff 0%,#e6e6e6 100%);
     background: linear-gradient(to bottom, #ffffff 0%,#e6e6e6 100%);
-    box-shadow: 0px 2px 0px 0px #fff;
-    -webkit-box-shadow: 0px 2px 0px 0px #fff;
-    -moz-box-shadow: 0px 2px 0px 0px #fff;
+    box-shadow: 0px 1px 0px 0px #fff;
+    -webkit-box-shadow: 0px 1px 0px 0px #fff;
+    -moz-box-shadow: 0px 1px 0px 0px #fff;
+    border-bottom: 1px solid #9ca1a5;
     color: #639ecd;
 }
 .header > h1
@@ -70,7 +71,7 @@ body
 	font-weight: normal;
 	border-bottom: 4px solid #639ecd;
 	display: inline-block;
-	margin: 0 0 0 20px;
+	margin: 0 0 0 12px;
     position:absolute;
     bottom:0;
     text-shadow: 0 1px 0 #fff;
@@ -92,7 +93,10 @@ body
     border-top: 1px solid #9ca1a5;
     position:relative;
 }
-
+.content > .input-area,
+.content > .action-area {
+    border-top-color:#fff;
+}
 .content > .input-area.ch100,
 .content > .action-areach100,
 .content > .result-area.ch100 {
@@ -103,7 +107,7 @@ body
 	background-color: #fff;
 	font-style: italic;
 	color: #A7A7A7;
-	width: 260px;
+	width: 290px;
 	padding: 7px 10px;
 	border-radius: 3px;
 	border-width: 1px;
@@ -111,8 +115,11 @@ body
 	border-color: rgb(180, 180, 180);
 	border-bottom-color: rgb(255, 255, 255);
 	box-shadow: 0 -1px 0 #3C3C3C;
-    margin-left:20px;
-    margin-top:20px;
+    margin-left:12px;
+    margin-top:10px;
+}
+.content > .input-area {
+    background-color:#e4e4e4;
 }
 
 .content > .result-area > .results {
@@ -232,9 +239,9 @@ body
 } 
 
 /* landscape */
-/*@media screen and (orientation:landscape) {
+@media screen and (orientation:landscape) {
 	.button.dh {
         height:32px;
         width:240px; 
     }
-}*/
+}
