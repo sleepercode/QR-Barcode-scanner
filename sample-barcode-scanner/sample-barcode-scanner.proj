@@ -75,9 +75,6 @@
       <TargetName>cordova.js</TargetName>
     </Content>
     <Content Include="scripts\main.js" />
-    <Content Include="styles\img\background.png" />
-    <Content Include="styles\img\footer-background.png" />
-    <Content Include="styles\img\header.png" />
     <Content Include="styles\img\logo.png" />
     <Content Include="styles\main.css" />
   </ItemGroup>
