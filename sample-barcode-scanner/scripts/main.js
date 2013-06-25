@@ -1,7 +1,7 @@
 document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady() {
-    navigator.splashscreen.hide();
+	navigator.splashscreen.hide();
 	var app = new App();
 	app.run();
 }
@@ -26,15 +26,19 @@ App.prototype = {
     
 	_scan: function() {
 		var that = this;
-		window.plugins.barcodeScanner.scan(
-			function(result) {
-				if (!result.cancelled) {
-					that._addMessageToLog(result.format + " | " + result.text);    
-				}
-			}, 
-			function(error) {
-				console.log("Scanning failed: " + error);
-			});
+		if (window.plugins !== undefined) {
+			window.plugins.barcodeScanner.scan(
+				function(result) {
+					if (!result.cancelled) {
+						that._addMessageToLog(result.format + " | " + result.text);    
+					}
+				}, 
+				function(error) {
+					console.log("Scanning failed: " + error);
+				});
+		}
+        else
+            alert("Not supported in Simulator");
 	},
 
 	_addMessageToLog: function(message) {
