@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ProjectGuid>38bc0908-3699-4d09-a8d6-9b137677883e</ProjectGuid>
@@ -17,75 +17,5 @@
     <iOSDeviceFamily>1;2</iOSDeviceFamily>
     <iOSBackgroundMode />
   </PropertyGroup>
-  <ItemGroup>
-    <Folder Include="App_Resources" />
-    <Folder Include="App_Resources\iOS">
-      <Platform>iOS</Platform>
-    </Folder>
-    <Folder Include="App_Resources\Android">
-      <Platform>Android</Platform>
-    </Folder>
-    <Folder Include="App_Resources\Android\drawable-hdpi">
-      <Platform>Android</Platform>
-    </Folder>
-    <Folder Include="App_Resources\Android\drawable-mdpi">
-      <Platform>Android</Platform>
-    </Folder>
-    <Folder Include="App_Resources\Android\drawable-ldpi">
-      <Platform>Android</Platform>
-    </Folder>
-    <Folder Include="App_Resources\Android\drawable-nodpi">
-      <Platform>Android</Platform>
-    </Folder>
-    <Folder Include="scripts" />
-    <Folder Include="styles" />
-    <Folder Include="styles\img" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="App_Resources\iOS\icon.png" />
-    <Resource Include="App_Resources\iOS\icon@2x.png" />
-    <Resource Include="App_Resources\iOS\icon-72.png" />
-    <Resource Include="App_Resources\iOS\icon-72@2x.png" />
-    <Resource Include="App_Resources\iOS\Icon-Small.png" />
-    <Resource Include="App_Resources\iOS\Icon-Small@2x.png" />
-    <Resource Include="App_Resources\iOS\Icon-Small-50.png" />
-    <Resource Include="App_Resources\iOS\Icon-Small-50@2x.png" />
-    <Resource Include="App_Resources\iOS\Default.png" />
-    <Resource Include="App_Resources\iOS\Default@2x.png" />
-    <Resource Include="App_Resources\iOS\Default-568h@2x.png" />
-    <Resource Include="App_Resources\iOS\Default-Portrait.png" />
-    <Resource Include="App_Resources\iOS\Default-Landscape.png" />
-    <Resource Include="App_Resources\iOS\Default-Portrait@2x.png" />
-    <Resource Include="App_Resources\iOS\Default-Landscape@2x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="App_Resources\Android\drawable-hdpi\icon.png" />
-    <Resource Include="App_Resources\Android\drawable-mdpi\icon.png" />
-    <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
-    <Resource Include="App_Resources\Android\drawable-nodpi\splashscreen.9.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="index.html" />
-    <Content Include="cordova.ios.js">
-      <Platform>iOS</Platform>
-      <TargetName>cordova.js</TargetName>
-    </Content>
-    <Content Include="cordova.android.js">
-      <Platform>Android</Platform>
-      <TargetName>cordova.js</TargetName>
-    </Content>
-    <Content Include="scripts\main.js" />
-    <Content Include="styles\img\logo.png" />
-    <Content Include="styles\main.css" />
-  </ItemGroup>
-  <ItemGroup>
-    <CordovaPlugin Include="com.phonegap.plugins.barcodescanner">
-      <Version>0.3.0</Version>
-      <Name>Barcode Scanner</Name>
-    </CordovaPlugin>
-  </ItemGroup>
-  <ItemGroup>
-    <CordovaPluginContent Include="com.phonegap.plugins.barcodescanner\barcodescanner.js" />
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Telerik\ICE\Tools\Mobile\MobileTools.targets" />
 </Project>
