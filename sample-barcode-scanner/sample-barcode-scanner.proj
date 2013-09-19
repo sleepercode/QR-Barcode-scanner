@@ -16,7 +16,7 @@
     <iOSDeviceFamily>1;2</iOSDeviceFamily>
     <iOSBackgroundMode />
     <FrameworkVersion>3.0.0</FrameworkVersion>
-    <CorePlugins>org.apache.cordova.core.device;org.apache.cordova.core.AudioHandler;org.apache.cordova.core.battery-status;org.apache.cordova.core.camera;org.apache.cordova.core.console;org.apache.cordova.core.contacts;org.apache.cordova.core.device;org.apache.cordova.core.device-motion;org.apache.cordova.core.device-orientation;org.apache.cordova.core.dialogs;org.apache.cordova.core.file;org.apache.cordova.core.file-transfer;org.apache.cordova.core.geolocation;org.apache.cordova.core.globalization;org.apache.cordova.core.inappbrowser;org.apache.cordova.core.media-capture;org.apache.cordova.core.network-information;org.apache.cordova.core.splashscreen;org.apache.cordova.core.vibration</CorePlugins>
+    <CorePlugins>org.apache.cordova.core.device;org.apache.cordova.core.splashscreen</CorePlugins>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Telerik\ICE\Tools\Mobile\MobileTools.targets" />
 </Project>
