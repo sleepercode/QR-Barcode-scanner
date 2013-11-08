@@ -16,7 +16,7 @@
     <iOSDeviceFamily>1;2</iOSDeviceFamily>
     <iOSBackgroundMode />
     <FrameworkVersion>3.0.0</FrameworkVersion>
-    <CorePlugins>org.apache.cordova.core.device;org.apache.cordova.core.splashscreen</CorePlugins>
+    <CorePlugins>com.phonegap.plugins.barcodescanner;org.apache.cordova.device;org.apache.cordova.splashscreen</CorePlugins>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Telerik\ICE\Tools\Mobile\MobileTools.targets" />
 </Project>
