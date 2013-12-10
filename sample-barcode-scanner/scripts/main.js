@@ -30,7 +30,7 @@ App.prototype = {
             alert("Not Supported in Simulator.");
         }
         else {
-            window.plugins.barcodeScanner.scan(
+            cordova.plugins.barcodeScanner.scan(
                 function(result) {
                     if (!result.cancelled) {
                         that._addMessageToLog(result.format + " | " + result.text);    
