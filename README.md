@@ -1,7 +1,7 @@
 sample-barcode-scanner
 ===================
 
-A sample of the usage of Barcode Scanner Cordova plugin in Icenium.
+A sample of the usage of Barcode Scanner Cordova plugin.
 
-Please note that plugin samples will work only when deployed on your device, because Icenium simulator does not support plugins yet.
-For more information please refer to the [sample documentation](http://docs.icenium.com/sample-apps/sample-barcode-scanner).
+Please note that plugin samples will work only when deployed on your device, because AppBuilder Simulator does not support plugins yet.
+For more information please refer to the [sample documentation](http://docs.telerik.com/platform/appbuilder/sample-apps/sample-barcode-scanner).
