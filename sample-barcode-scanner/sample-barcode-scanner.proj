@@ -10,13 +10,16 @@
     <DeviceOrientations>Portrait;Landscape</DeviceOrientations>
     <iOSStatusBarStyle>Default</iOSStatusBarStyle>
     <BundleVersion>1.0</BundleVersion>
-    <iOSDisplayName>Barcode</iOSDisplayName>
+    <iOSDisplayName>
+    </iOSDisplayName>
     <AndroidVersionCode>1</AndroidVersionCode>
     <AndroidHardwareAcceleration>true</AndroidHardwareAcceleration>
     <iOSDeviceFamily>1;2</iOSDeviceFamily>
     <iOSBackgroundMode />
     <FrameworkVersion>3.2.0</FrameworkVersion>
-    <CorePlugins>com.phonegap.plugins.barcodescanner;org.apache.cordova.device;org.apache.cordova.splashscreen</CorePlugins>
+    <CorePlugins>org.apache.cordova.device;org.apache.cordova.splashscreen;com.phonegap.plugins.barcodescanner</CorePlugins>
+    <DisplayName>Barcode</DisplayName>
+    <WP8SupportedResolutions>ID_RESOLUTION_WVGA;ID_RESOLUTION_WXGA;ID_RESOLUTION_HD720P</WP8SupportedResolutions>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Telerik\ICE\Tools\Mobile\MobileTools.targets" />
 </Project>
