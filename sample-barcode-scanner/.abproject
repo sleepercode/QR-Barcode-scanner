@@ -51,5 +51,6 @@
     "ID_RESOLUTION_HD720P"
   ],
   "Author": "",
-  "Description": "sample-barcode-scanner"
+  "Description": "sample-barcode-scanner",
+  "Framework": "Cordova"
 }
