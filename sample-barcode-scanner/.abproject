@@ -3,7 +3,6 @@
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
   "AppIdentifier": "com.telerik.samplebarcodescanner",
   "ProjectName": "sample-barcode-scanner",
-  "IsRunnable": "true",
   "AndroidPermissions": [
     "android.permission.CAMERA",
     "android.permission.VIBRATE",
@@ -37,7 +36,6 @@
     "1",
     "2"
   ],
-  "iOSBackgroundMode": [],
   "FrameworkVersion": "3.5.0",
   "CorePlugins": [
     "org.apache.cordova.device",
