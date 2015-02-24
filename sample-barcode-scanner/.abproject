@@ -49,7 +49,5 @@
 	"Author": "",
 	"Description": "sample-barcode-scanner",
 	"Framework": "Cordova",
-	"projectVersion": 1,
-	"WP8PublisherID": "{758f46d1-c26b-4c02-9915-4dc60bbe9a90}",
-	"WP8ProductID": "{27e98afd-4138-49b1-9e8a-edca368578f9}"
+	"projectVersion": 1
 }
