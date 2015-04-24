@@ -40,13 +40,18 @@
 		"org.apache.cordova.device",
 		"org.apache.cordova.splashscreen"
 	],
-	"DisplayName": "sample-barcode-scanner",
+	"DisplayName": "Barcode",
 	"WP8SupportedResolutions": [
 		"ID_RESOLUTION_WVGA",
 		"ID_RESOLUTION_WXGA",
 		"ID_RESOLUTION_HD720P"
 	],
 	"Author": "",
+	"WP8Publisher": "",
+	"WP8TileTitle": "",
+	"WP8Capabilities": [],
+	"iOSBackgroundMode": [],
+	"WP8Requirements": [],
 	"Description": "sample-barcode-scanner",
 	"Framework": "Cordova",
 	"projectVersion": 1
