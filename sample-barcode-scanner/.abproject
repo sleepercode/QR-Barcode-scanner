@@ -37,6 +37,7 @@
 	],
 	"FrameworkVersion": "3.7.0",
 	"CorePlugins": [
+		"com.phonegap.plugins.barcodescanner@1.2.9",
 		"org.apache.cordova.device",
 		"org.apache.cordova.splashscreen"
 	],
