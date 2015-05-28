@@ -4,15 +4,30 @@
 # For more information about .abignore and how to write exclude and include rules for your projects, see http://docs.telerik.com/platform/appbuilder/testing-your-app/abignore
 
 # Windows files
-*/**/Thumbs.db
+**/Thumbs.db
 
 # Mac OS files
-*/**/.DS_Store
-*/**/__MACOSX/**/*
+**/.DS_Store
+**/__MACOSX/**/*
 
 # Visual Studio files
 bin/**/*
 obj/**/*
+**/*.obj
+**/*.pdb
+**/*.user
+**/*.aps
+**/*.pch
+**/*.vspscc
+**/*_i.c
+**/*_p.c
+**/*.ncb
+**/*.suo
+**/*.tlb
+**/*.tlh
+**/*.ilk
+**/*.lib
+**/*.sbr
 
 # Source control files
 .gitignore
@@ -21,3 +36,13 @@ obj/**/*
 # AppBuilder files
 .abignore
 .ab/**/*
+.app.json
+
+# TypeScript files
+**/*.ts
+**/*.map
+
+# Other
+**/*.bak
+**/*.cache
+**/*.log
