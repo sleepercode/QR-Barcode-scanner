@@ -43,9 +43,9 @@
 	],
 	"DisplayName": "Barcode",
 	"WP8SupportedResolutions": [
+		"ID_RESOLUTION_HD720P",
 		"ID_RESOLUTION_WVGA",
-		"ID_RESOLUTION_WXGA",
-		"ID_RESOLUTION_HD720P"
+		"ID_RESOLUTION_WXGA"
 	],
 	"Author": "",
 	"WP8Publisher": "",
@@ -55,5 +55,9 @@
 	"WP8Requirements": [],
 	"Description": "sample-barcode-scanner",
 	"Framework": "Cordova",
-	"projectVersion": 1
+	"projectVersion": 1,
+	"WP8PublisherID": "{0c335d44-852f-444c-bbcc-50d68fdedd2b}",
+	"WP8ProductID": "{087cec5a-93e4-4111-9ca6-379aa33d056a}",
+	"WP8PackageIdentityName": "1234Telerik.com.telerik.samplebarcodescanner",
+	"WP8WindowsPublisherName": "CN=Telerik"
 }
