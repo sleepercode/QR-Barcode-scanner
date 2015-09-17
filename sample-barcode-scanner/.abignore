@@ -11,6 +11,8 @@
 **/__MACOSX/**/*
 
 # Visual Studio files
+**/.vscode/**/*
+**/.vs/**/*
 bin/**/*
 obj/**/*
 **/*.obj
