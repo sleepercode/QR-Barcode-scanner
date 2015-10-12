@@ -1,0 +1,7 @@
+title: Barcode Scanner
+slug: sample-barcode-scanner
+page_title: Barcode Scanner | Apache Cordova Sample | Telerik Platform
+description: This sample uses the BarcodeScanner Apache Cordova plugin from the Telerik Verified Plugins Marketplace to scan and decode barcodes.
+tags: Apache Cordova, barcode, camera, scan, QR code, decode, iOS, Android, Windows Phone
+publish: true
+content_filter: true
