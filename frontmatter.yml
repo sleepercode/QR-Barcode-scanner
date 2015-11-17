@@ -5,3 +5,4 @@ description: This sample uses the BarcodeScanner Apache Cordova plugin from the 
 tags: Apache Cordova, barcode, camera, scan, QR code, decode, iOS, Android, Windows Phone
 publish: true
 content_filter: true
+apis: cordova.barcode cordova.barcode.scan

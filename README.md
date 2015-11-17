@@ -1,11 +1,10 @@
 Barcode Scanner
 ===================
 
-<a href="https://platform.telerik.com/#appbuilder/clone/https%3A%2F%2Fgithub.com%2FIcenium%2Fsample-barcode-scanner" target="_blank"><img src="http://docs.telerik.com/platform/samples/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in AppBuilder" /></a>  <a href="https://github.com/Icenium/sample-barcode-scanner" target="_blank"><img style="padding-left:20px" src="http://docs.telerik.com/platform/samples/images/get-github.png" alt="Get from GitHub" title="Get from GitHub"></a>
+<a href="https://platform.telerik.com/#appbuilder/clone/https%3A%2F%2Fgithub.com%2FIcenium%2Fsample-barcode-scanner" target="_blank"><img src="http://docs.telerik.com/platform/samples/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in AppBuilder" /></a>  
 
 <a id="top"></a>
 * [Overview](#overview)
-* [Showcased APIs](#showcased-apis)
 * [Screenshots](#screenshots)
 * [Test the Sample](#test-the-sample)
 * [Limitations](#limitations)
@@ -15,14 +14,6 @@ This sample shows you how to use the BarcodeScanner API to scan and decode barco
 > *Supported mobile platforms:* iOS, Android, Windows Phone
 >
 > *Developed with:* Apache Cordova 3.7.0, BarcodeScanner 1.2.9
-
-[Back to Top](#top)
-
-# Showcased APIs
-
-This sample shows how to use the following method of the [BarcodeScanner API][BarcodeScanner API].
-
-* **scan()**: Uses the device camera to scan a barcode and returns the scanned text and the barcode format.
 
 [Back to Top](#top)
 
@@ -147,4 +138,3 @@ You cannot run this sample in the device simulator.
 [QR code]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-on-devices/deploy-remote
 [USB deploy]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-on-devices/running-on-connected-devices/deploy-connected
 [emulators]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-in-emulators/native-emulators
-[BarcodeScanner API]: http://plugins.telerik.com/cordova/plugin/barcodescanner
