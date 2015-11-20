@@ -1,63 +1,63 @@
 {
-	"ProjectGuid": "38bc0908-3699-4d09-a8d6-9b137677883e",
-	"ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-	"AppIdentifier": "com.telerik.samplebarcodescanner",
-	"ProjectName": "sample-barcode-scanner",
-	"AndroidPermissions": [
-		"android.permission.CAMERA",
-		"android.permission.VIBRATE",
-		"android.permission.ACCESS_COARSE_LOCATION",
-		"android.permission.ACCESS_FINE_LOCATION",
-		"android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
-		"android.permission.READ_PHONE_STATE",
-		"android.permission.INTERNET",
-		"android.permission.RECEIVE_SMS",
-		"android.permission.RECORD_AUDIO",
-		"android.permission.MODIFY_AUDIO_SETTINGS",
-		"android.permission.READ_CONTACTS",
-		"android.permission.WRITE_CONTACTS",
-		"android.permission.WRITE_EXTERNAL_STORAGE",
-		"android.permission.ACCESS_NETWORK_STATE",
-		"android.permission.ACCOUNT_MANAGER",
-		"android.permission.GET_ACCOUNTS",
-		"android.permission.MANAGE_ACCOUNTS",
-		"android.permission.BROADCAST_STICKY"
-	],
-	"DeviceOrientations": [
-		"Portrait",
-		"Landscape"
-	],
-	"iOSStatusBarStyle": "Default",
-	"BundleVersion": "1.0",
-	"AndroidVersionCode": "1",
-	"AndroidHardwareAcceleration": "true",
-	"iOSDeviceFamily": [
-		"1",
-		"2"
-	],
-	"FrameworkVersion": "3.7.0",
-	"CorePlugins": [
-		"com.phonegap.plugins.barcodescanner@1.2.9",
-		"org.apache.cordova.device",
-		"org.apache.cordova.splashscreen"
-	],
-	"DisplayName": "Barcode",
-	"WP8SupportedResolutions": [
-		"ID_RESOLUTION_HD720P",
-		"ID_RESOLUTION_WVGA",
-		"ID_RESOLUTION_WXGA"
-	],
-	"Author": "",
-	"WP8Publisher": "",
-	"WP8TileTitle": "",
-	"WP8Capabilities": [],
-	"iOSBackgroundMode": [],
-	"WP8Requirements": [],
-	"Description": "sample-barcode-scanner",
-	"Framework": "Cordova",
-	"projectVersion": 1,
-	"WP8PublisherID": "{0c335d44-852f-444c-bbcc-50d68fdedd2b}",
-	"WP8ProductID": "{087cec5a-93e4-4111-9ca6-379aa33d056a}",
-	"WP8PackageIdentityName": "1234Telerik.com.telerik.samplebarcodescanner",
-	"WP8WindowsPublisherName": "CN=Telerik"
+  "ProjectGuid": "38bc0908-3699-4d09-a8d6-9b137677883e",
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "AppIdentifier": "com.telerik.samplebarcodescanner",
+  "ProjectName": "sample-barcode-scanner",
+  "AndroidPermissions": [
+    "android.permission.CAMERA",
+    "android.permission.VIBRATE",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.INTERNET",
+    "android.permission.RECEIVE_SMS",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.READ_CONTACTS",
+    "android.permission.WRITE_CONTACTS",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCOUNT_MANAGER",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.MANAGE_ACCOUNTS",
+    "android.permission.BROADCAST_STICKY"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "iOSStatusBarStyle": "Default",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "AndroidHardwareAcceleration": "true",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "FrameworkVersion": "3.7.0",
+  "CorePlugins": [
+    "com.phonegap.plugins.barcodescanner@1.2.9",
+    "org.apache.cordova.device",
+    "org.apache.cordova.splashscreen"
+  ],
+  "DisplayName": "Barcode",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_HD720P",
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA"
+  ],
+  "Author": "",
+  "WP8Publisher": "",
+  "WP8TileTitle": "",
+  "WP8Capabilities": [],
+  "iOSBackgroundMode": [],
+  "WP8Requirements": [],
+  "Description": "sample-barcode-scanner",
+  "Framework": "Cordova",
+  "projectVersion": 1,
+  "WP8PublisherID": "{0c335d44-852f-444c-bbcc-50d68fdedd2b}",
+  "WP8ProductID": "{087cec5a-93e4-4111-9ca6-379aa33d056a}",
+  "WP8PackageIdentityName": "1234Telerik.com.telerik.samplebarcodescanner",
+  "WP8WindowsPublisherName": "CN=Telerik"
 }
