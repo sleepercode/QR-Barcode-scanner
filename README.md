@@ -35,7 +35,7 @@ With the AppBuilder in-browser client, you can develop hybrid and NativeScript c
 
 ### Clone the sample
 
-1. Click **Try in AppBuilder** above.
+1. Click the button at the top of this document.
 1. Provide your login credentials, if prompted.
 
 ### Run the sample
